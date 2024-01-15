@@ -32,6 +32,11 @@ public class Ex01 {
 		iSet.add(i04);
 		System.out.println(iSet.size());
 		System.out.println(iSet.toString());
+		
+		for(Integer num : iSet) {
+			System.out.println(num.toString());
+		}
+		
 	}
 
 }
