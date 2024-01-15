@@ -13,8 +13,9 @@ public class Ex01 {
 			Integer lo=(int)(Math.random()*45)+1;
 			lotto.add(lo);
 		}
-		System.out.println(lotto.toString());
 		
+			System.out.println(lotto);
+
 	}
 
 }
